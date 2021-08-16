@@ -1,0 +1,27 @@
+.card {
+    width: 390px;
+    height: 500px;
+    background-color: $bg-dark;
+    margin: 40px;
+    padding: 40px;
+    transition: .8s ease;
+    border-radius: 10px;
+    &:hover {
+        background-color: $bg-hover;
+        border-radius: 0px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            width: 152px;
+            height: 152px;
+            margin-bottom: 3rem;
+        }
+        h2 {
+            margin-bottom: 1.6rem;
+        }
+    }
+}

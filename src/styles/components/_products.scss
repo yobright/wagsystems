@@ -1,0 +1,44 @@
+.products {
+    padding: 4rem 0;
+
+    .wrapper {
+        width: calc(100% - 200px);
+        margin: 0 auto;
+
+        h1 {
+            font-size: 4.2rem;
+            margin-bottom: 1rem;
+            color: $bg-dark;
+        }
+        .section-item {
+            margin: 1.2rem;
+            padding: 10px;
+            a {
+                color: $bg-dark;
+                font-weight: 900;
+            }
+            h2 {
+                font-size: 3rem;
+                margin-bottom: 1.4rem;
+            }
+
+            .item-row {
+                display: flex;
+                justify-content: space-between;
+
+                .bold-p {
+                    font-weight: 800;
+                }
+
+                .col {
+                    margin: 18px;
+                }
+                h3 {
+                    margin-bottom: 10px;
+                    
+                }
+            }
+
+        }
+    }
+}

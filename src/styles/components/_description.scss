@@ -1,0 +1,31 @@
+.description {
+    background-color: $bg;
+    color: $primary;
+    padding: 4rem 0;
+    
+    .wrapper {
+        width: calc(100% - 200px);
+        margin: 0 auto;
+
+        h1 {
+            font-size: 4.2rem;
+            margin-bottom: 1.8rem;
+        }
+
+        p {
+            font-size: 1.8rem;
+            line-height: 1.4;
+
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2.8rem 0;
+
+            
+        }
+    }
+}

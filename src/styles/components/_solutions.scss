@@ -1,0 +1,45 @@
+.solutions {
+    .wrapper {
+        width: calc(100% - 200px);
+        margin: 0 auto;
+        a {
+            color: $secondary;
+            font-weight: 900;
+            &:hover {
+                color: $bg-dark;
+            }
+        }
+        h1 {
+             font-size: 4.2rem;
+             margin-bottom: 1rem;
+             color: $bg-dark;
+        }
+        .solutions-row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .item {
+            margin: 15px;
+            height: 350px;
+
+            h3 {
+                padding: 20px;
+                height: 40%;
+                width: 60%;
+                margin: 0 auto;
+                background-color: rgb(197, 197, 197);
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            h2 {
+                margin-bottom: 15px;
+            }
+
+            p{
+                color: gray;
+            }
+        }
+    }   
+}

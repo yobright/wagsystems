@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    border-bottom: .8px solid gray;
+
+    .wrapper {
+        max-width: calc(100% - 200px);
+        display: flex; 
+        margin: 0 auto;
+        height: 80px;
+        align-items: center;
+        justify-content: space-between;       
+
+        .nav {
+            ul { 
+                display: flex;
+                li {
+                    margin-right: 30px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
